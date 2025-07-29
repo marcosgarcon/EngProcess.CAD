@@ -3,20 +3,20 @@
 # *                                                                         *
 # *   Copyright (c) 2023 0penBrain.                                         *
 # *                                                                         *
-# *   This file is part of FreeCAD.                                         *
+# *   This file is part of ENG-PROCESS-CAD.                                         *
 # *                                                                         *
-# *   FreeCAD is free software: you can redistribute it and/or modify it    *
+# *   ENG-PROCESS-CAD is free software: you can redistribute it and/or modify it    *
 # *   under the terms of the GNU Lesser General Public License as           *
 # *   published by the Free Software Foundation, either version 2.1 of the  *
 # *   License, or (at your option) any later version.                       *
 # *                                                                         *
-# *   FreeCAD is distributed in the hope that it will be useful, but        *
+# *   ENG-PROCESS-CAD is distributed in the hope that it will be useful, but        *
 # *   WITHOUT ANY WARRANTY; without even the implied warranty of            *
 # *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      *
 # *   Lesser General Public License for more details.                       *
 # *                                                                         *
 # *   You should have received a copy of the GNU Lesser General Public      *
-# *   License along with FreeCAD. If not, see                               *
+# *   License along with ENG-PROCESS-CAD. If not, see                               *
 # *   <https://www.gnu.org/licenses/>.                                      *
 # *                                                                         *
 # ***************************************************************************
@@ -35,11 +35,11 @@
 # ${REF} => The full reference of the branch owning the cache (starting with "/refs/pull/" or "/refs/heads/")
 # ${ID} => A cache unique identifier, generally an ascending number, in no case containing a '-' (hyphen) sign
 
-name: FreeCAD CI cleaner
+name: ENG-PROCESS-CAD CI cleaner
 
 on:
   workflow_run:
-    workflows: [FreeCAD master CI]
+    workflows: [ENG-PROCESS-CAD master CI]
     types:
       - completed
 
