@@ -19,7 +19,7 @@
 # *                                                                         *
 # ***************************************************************************
 
-# This is a build and test workflow for CI of FreeCAD.
+# This is a build and test workflow for CI of ENG-PROCESS-CAD.
 # This workflow aims at building and testing ENG-PROCESS-CAD on Windows using MSVC.
 
 name: Build Windows
